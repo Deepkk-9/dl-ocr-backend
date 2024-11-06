@@ -51,6 +51,7 @@ const getGroqResponse = async (content) => {
     }
 };
 
+
 // Endpoint for OCR processing and interacting with Groq API
 app.post('/process-image', upload.single('image'), async (req, res) => {
     try {
